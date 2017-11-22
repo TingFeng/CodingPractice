@@ -1,3 +1,3 @@
-# TFtest-repo
+# CodingPractice
 
 Various python exercises
