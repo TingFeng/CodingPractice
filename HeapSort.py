@@ -21,6 +21,11 @@ Method:
    d. repeat the above a,b,c process until either the parent node is at the bottom level of the tree, or no value needs to be swapped
 4. After SiftUp, the tree becomes a Heap again, now repeat the above 2,3 process untial all the values are removed from the tree
 
+Note added on 2017/12/12: 
+The following code sorted the list, and also kept the original index of the list. 
+In the situation that only sorted list is requested, one can directed swap/order the numbers in the list, and have true space complexity O(1)
+The temporal complexity is O(nlogn)
+
 """
 
 def HeapSort(nums):
