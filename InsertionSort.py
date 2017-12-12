@@ -2,7 +2,7 @@
 Insersion sort: https://en.wikipedia.org/wiki/Insertion_sort
 
 Note: scan number from beginning to end, and everytime place a new number to the right place
-Same as bubble sort, time complexity O(n^2), and space complexity O(1)
+Same as bubble sort, time complexity O(n^2) - the best is O(n) when the list is already sorted, and space complexity O(1)
 
 """
 
